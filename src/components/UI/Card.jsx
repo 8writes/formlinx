@@ -4,12 +4,11 @@ import CardContent from "@mui/material/CardContent";
 const CardItem = ({ children }) => {
   return (
     <>
-      <Card
-        className="transition ease-in-out delay-150 md:hover:-translate-y-3"
-        sx={{ maxWidth: 375 }}
-      >
-        <CardContent>{children}</CardContent>
-      </Card>
+      <span className="transition ease-in-out delay-150 md:hover:-translate-y-3">
+        <Card sx={{ maxWidth: 375, minHeight: 250 }}>
+          <CardContent>{children}</CardContent>
+        </Card>
+      </span>
     </>
   );
 };
