@@ -5,12 +5,10 @@ let className = "";
 
   switch (variant) {
     case "animation":
-      className =
-        "shadow-lg shadow-gray-500/40 px-5 py-2 bg-purple-800 text-white hover:bg-orange-600";
+      className = "";
       break;
     case "normal":
-      className =
-        "shadow-lg shadow-gray-500/40  px-5 py-2 bg-purple-800 text-white hover:bg-purple-800";
+      className = "";
       break;
   default:
       break;
@@ -28,11 +26,12 @@ let className = "";
         onMouseLeave={() => {
           if (variant === "animation") {
             document.getElementById("apiText").className = "text-purple-800";
-            document.getElementById("htmlText").className = "text-orange-600";
+              document.getElementById("htmlText").className = "text-orange-600";
           }
         }}
-        variant="text"
+        variant="contained"
         href={linkSrc}
+        color="secondary"
         size="large"
         className={className}
       >

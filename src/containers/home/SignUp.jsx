@@ -13,9 +13,9 @@ const SignUp = () => {
             </div>
           </div>
           <div>
-            <Link href="https://formlinx.onrender.com/signup">
-              <ButtonItem variant="normal">Get started</ButtonItem>
-            </Link>
+            <ButtonItem linkSrc={"https://formlinx.onrender.com/signup"}>
+              Get started
+            </ButtonItem>
           </div>
         </div>
       </section>

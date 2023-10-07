@@ -1,7 +1,8 @@
-import { ButtonItem, Logo, Typography } from "@/components";
+import {  Logo, Typography } from "@/components";
 import Snackbar from "@mui/material/Snackbar";
 import CloseIcon from "@mui/icons-material/Close";
 import MenuIcon from "@mui/icons-material/Menu";
+import Card from "@mui/material/Card";
 import React from "react";
 import Link from "next/link";
 
@@ -19,10 +20,9 @@ const MobileNavbar = () => {
     setOpen(false);
   };
 
-  // Define the action component
   const action = (
     <div className="fixed right-10 top-20">
-      <ButtonItem variant="normal">
+      <Card className="px-7 py-3 bg-gray-100">
         <Link
           className="hover:text-orange-300"
           href="https://formlinx.onrender.com/login"
@@ -36,7 +36,7 @@ const MobileNavbar = () => {
         >
           <Typography variant="p.medium">Sign Up</Typography>
         </Link>
-      </ButtonItem>
+      </Card>
     </div>
   );
 

@@ -1,4 +1,5 @@
-import { ButtonItem, Logo, Typography } from "@/components";
+import {  Logo, Typography } from "@/components";
+import Card from "@mui/material/Card";
 import Link from "next/link";
 
 const Navbar = () => {
@@ -9,7 +10,7 @@ const Navbar = () => {
           <Logo />
 
           <div className="fixed right-14 top-10">
-            <ButtonItem variant="normal">
+            <Card className="px-7 py-3 bg-gray-100" >
               <Link
                 className="hover:text-orange-300"
                 href="https://formlinx.onrender.com/login"
@@ -23,7 +24,7 @@ const Navbar = () => {
               >
                 <Typography variant="p.medium">Sign Up</Typography>
               </Link>
-            </ButtonItem>
+            </Card>
           </div>
         </div>
       </section>
