@@ -27,14 +27,14 @@ const MobileNavbar = () => {
           className="hover:text-orange-300"
           href="https://formlinx.onrender.com/login"
         >
-          <Typography variant="p.medium">Login</Typography>
+          <Typography variant="p">Login</Typography>
         </Link>
         &nbsp; &#47; &nbsp;
         <Link
           className="hover:text-orange-300"
           href="https://formlinx.onrender.com/signup"
         >
-          <Typography variant="p.medium">Sign Up</Typography>
+          <Typography variant="p">Sign Up</Typography>
         </Link>
       </Card>
     </div>
