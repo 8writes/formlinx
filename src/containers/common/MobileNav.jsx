@@ -43,7 +43,7 @@ const MobileNavbar = () => {
   return (
     <>
       <section className="flex md:hidden bg-white ">
-        <div className="flex w-full fixed z-10 bg-slate-50 justify-between p-5 md:p-10">
+        <div className="flex w-full fixed z-10 bg-slate-50 justify-between py-3 px-5 md:p-10">
           <Logo />
           <div>
             {!open ? (
