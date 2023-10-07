@@ -3,7 +3,7 @@ import { ButtonItem, Typography } from "@/components";
 const Hero = () => {
   return (
     <>
-      <section className="bg-white py-28 md:py-10">
+      <section className="bg-white pt-28 pb-10 md:py-10">
         <div className="flex justify-center ">
           <div className="grid gap-5 md:gap-10 justify-items-center text-center py-5 md:py-10 px-5 md:px-10">
             <div className="max-w-5xl ">
@@ -28,7 +28,7 @@ const Hero = () => {
                 . <br></br> We will handle the rest.
               </Typography>
             </div>
-            <div>
+            <div className="pt-10 md:pt-0">
               <ButtonItem variant="animation" linkSrc={"#integration"}>
                 Get Started
               </ButtonItem>
