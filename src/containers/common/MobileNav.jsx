@@ -21,7 +21,7 @@ const MobileNavbar = () => {
   };
 
   const action = (
-    <div className="fixed right-10 top-20">
+    <div className="fixed right-10 top-16">
       <Card className="px-7 py-3 bg-gray-100">
         <Link
           className="hover:text-orange-300"
